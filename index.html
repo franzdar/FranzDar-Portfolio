@@ -1,0 +1,450 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>[Franz Dar] | Game Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[franzdar], [Franz Dar], Unity, Game Development, C#, Level Design" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Franz Dar] | Game Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Franz Dar] | Game Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Franz Dar] | Game Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hello! <br><br> I'm <span class="text-color-main name">Franz Dar</span>
+          <br />
+          A passionate Game Developer.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in Touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/newprofile.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I'm a Game Developer who is passionate about creating awe-inspiring
+              game experiences through art and code. I love the challenge of putting 
+              a team's creative vision out there into the world to be experienced by 
+              a wide-range of audiences.
+            </p>
+            <p class="about-wrapper__info-text">
+              I always pay great attention to detail in the design and development of 
+              my projects. I enjoy collaborating with teams to create compelling games that 
+              can ultimately make an impact in the game industry.
+            </p>
+            <p class="about-wrapper__info-text">
+              I'm always on the lookout for interesting projects to work on. Feel free
+              to reach out to me.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="https://docs.google.com/document/d/1flCd8cXku8_wlyIyAnBO4eRkLltIcyFCIJHZoW9VDCo/edit?usp=sharing" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Intrusion: Save Yourself</h3>
+              <p class="project-wrapper__text-info">
+                <b>Platform:</b> Windows  <br>
+                <b>Build:</b> Unity3D-HDRP / C#  
+              </p>
+              <p class="project-wrapper__text-info">
+                <br>
+                Developed by <b>Nervesmith Studios</b>.  
+              </p>
+              <p class="project-wrapper__text-info">
+                Intrusion is a first-person, psychological-horror game that aims to
+                rectify the lack of mental health awareness by allowing the audience 
+                to experience what it feels like to be in the shoes of someone who 
+                is suffering from a mental illness.
+              </p>
+              <p class="project-wrapper__text-info">
+                Within the project, I took the role of directing the team and managing
+                the project. I also lead various roles in terms of game design, technical
+                or programming management, and quality assurance. Mainly, I created the 
+                game's level designs and integrated core gameplay features and systems.
+                I also led the visual direction of the game through utilizing different
+                tools available in Unity's High Definition Render Pipeline.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://drive.google.com/drive/folders/1gUpu3nhQ2N_C6HMNWSyz92WG12dK3tBc?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Download</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Game Demo</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/intrusion.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Curse & Cures</h3>
+              <p class="project-wrapper__text-info">
+                <b>Platform:</b> Windows  <br>
+                <b>Build:</b> Unity2D / C#
+              </p>
+              <p class="project-wrapper__text-info">
+                <br>
+                Developed by <b>Matrix Productions</b>.
+              </p>
+              <p class="project-wrapper__text-info">
+                Curse & Cures is a 2D platformer that focuses on backtracking and 
+                shifting level designs to keep the player on their toes. It features 
+                a young boy who sets out to find a cure for his sick mother as well 
+                as finding his missing older brother. 
+              </p>
+              <p class="project-wrapper__text-info">
+                Within the project, I took the role of directing the team and leading
+                both the creatives and programming department. I also created the game's 
+                level design and integrated core gameplay systems such as animations, events,
+                enemy behavior, and physics.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://drive.google.com/drive/folders/1ji3kBqCYLx-DP2p-Lh4Y-SpLa8aZ95m2?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Download</a
+                >
+                <a href="https://github.com/franzdar/CurseAndCures-Project" target="_blank" class="cta-btn text-color-main"
+                  >Game Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/cnc.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Deceived</h3>
+              <p class="project-wrapper__text-info">
+                <b>Platform:</b> Windows  <br>
+                <b>Build:</b> Unity2D / C#
+              </p>
+              <p class="project-wrapper__text-info">
+                <br>
+                Developed by <b>G2 Entertainment</b>.
+              </p>
+              <p class="project-wrapper__text-info">
+                Deceived is a visual novel that focuses on the player's dialogue choices
+                for its story progression. It features stunning traditional anime or manga 
+                art style characters and environments made by digital animation students.
+              </p>
+              <p class="project-wrapper__text-info">
+                Within the project, I took the role of developing the game as the team is 
+                only composed of digital animation students with me as the sole game 
+                development student. I integrated all of the game's core gameplay systems
+                such as events and dialogue as well as UI design.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://drive.google.com/drive/folders/19aTQ5SAVJA_4rOVA2HaquDme8GpKd9ks?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Download</a
+                >
+                <a href="https://github.com/franzdar/Deceived-Project" target="_blank" class="cta-btn text-color-main"
+                  >Game Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/deceived.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project --> 
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Galaxy Game</h3>
+              <p class="project-wrapper__text-info">
+                <b>Platform:</b> Windows  <br>
+                <b>Build:</b> Unity2D / C#
+              </p>
+              <p class="project-wrapper__text-info">
+                <br>
+                <b>Solo Project</b>.
+              </p>
+              <p class="project-wrapper__text-info">
+                Galaxy Game is a casual puzzle game inspired by Angry Birds. It features
+                various worlds infested by alien slimes where you are tasked to defeat 
+                them using unique projectiles at your disposal.
+              </p>
+              <p class="project-wrapper__text-info">
+                Within the project, I've illustrated 2D sprites (Characters and Props only)
+                for the game's assets. I developed the game from start to finish and integrated
+                various core gameplay systems such as physics, projectile paths, menu, level 
+                selection, audio, enemies, and user interface.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://drive.google.com/drive/folders/1Hu6TuLDZb1LdwLh8f839iGUpvw1MLaj4?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Download</a
+                >
+                <a href="https://github.com/franzdar/GalaxyGame-Project" target="_blank" class="cta-btn text-color-main"
+                  >Game Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/galaxygame.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Got an interesting game project in mind?</p>
+          <a href="mailto:franzjp.dar@gmail.com" class="cta-btn cta-btn--resume">GAME START!</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.artstation.com/franzdar"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="artstation"
+          >
+            <i class="fa-brands fa-artstation"></i>
+          </a>
+          <a
+            href="mailto:franzjp.dar@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="email"
+          >
+            <i class="fa-classic fa-envelope"></i>
+          </a>
+          <a
+            href="https://github.com/franzdar"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/fransuushii"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com/fransuushi"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Inspired by
+          <a
+            href="https://github.com/AnilSeervi"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Anil Seervi</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
